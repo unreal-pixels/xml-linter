@@ -1,0 +1,36 @@
+@import '@unrealpixels/common-lib/styles/variables';
+
+.data-entry {
+  width: 100%;
+
+  &--label {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  &--button {
+    @include base-button();
+
+    display: inline-block;
+    text-transform: none;
+    background: $primary-color;
+    border: 2px solid $primary-color;
+    color: $text-accent;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+}
+
+.data-error {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  background-color: $secondary-color;
+  color: $text-accent;
+}
