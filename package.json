@@ -9,7 +9,7 @@
     "@types/react-dom": "^18.2.4",
     "@types/react-router-dom": "^5.3.3",
     "@typescript-eslint/eslint-plugin": "^5.59.8",
-    "@unrealpixels/common-lib": "^0.1.16",
+    "@unrealpixels/common-lib": "^0.1.17",
     "@vitejs/plugin-basic-ssl": "^1.0.1",
     "@vitejs/plugin-react": "^4.0.4",
     "axios": "^1.4.0",
